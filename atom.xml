@@ -38,9 +38,9 @@
     
     
     
-      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
-    
       <category term="java" scheme="https://chpengzh.github.io/tags/java/"/>
+    
+      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
     
       <category term="thread-pool" scheme="https://chpengzh.github.io/tags/thread-pool/"/>
     
@@ -67,9 +67,9 @@
     
     
     
-      <category term="maven" scheme="https://chpengzh.github.io/tags/maven/"/>
-    
       <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
+    
+      <category term="maven" scheme="https://chpengzh.github.io/tags/maven/"/>
     
       <category term="spring-boot" scheme="https://chpengzh.github.io/tags/spring-boot/"/>
     
@@ -97,9 +97,9 @@
     
     
     
-      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
-    
       <category term="java" scheme="https://chpengzh.github.io/tags/java/"/>
+    
+      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
     
       <category term="aspectj" scheme="https://chpengzh.github.io/tags/aspectj/"/>
     
@@ -125,9 +125,9 @@
     
     
     
-      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
-    
       <category term="java" scheme="https://chpengzh.github.io/tags/java/"/>
+    
+      <category term="projects" scheme="https://chpengzh.github.io/tags/projects/"/>
     
       <category term="slf4j" scheme="https://chpengzh.github.io/tags/slf4j/"/>
     
