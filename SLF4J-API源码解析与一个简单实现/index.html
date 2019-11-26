@@ -12,7 +12,7 @@
     chpengzh&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="最近的工作里有好几个同事向我问起了slf4j的一些配置和使用问题。本着问题需要被从根本解决的原则，我决定写一个样例项目来解释一下slf4j-api的一些接口问题，以及log4j对其的实现原理。 项目地址为 https:&#x2F;&#x2F;github.com&#x2F;my-helloworld 本项目就是一个slf4j-api简单的异步日志实现，原理参考slf4j-log4j12。代码精简易懂，方便初学者了解slf4j-">
-<meta name="keywords" content="java,projects,slf4j">
+<meta name="keywords" content="projects,java,slf4j">
 <meta property="og:type" content="article">
 <meta property="og:title" content="slf4j-api的源码解析与一个简单实现">
 <meta property="og:url" content="https:&#x2F;&#x2F;chpengzh.github.io&#x2F;SLF4J-API%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B8%8E%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0&#x2F;index.html">
@@ -101,6 +101,36 @@
         
       </div>
     </nav>
+    <div class="page-reward" style="margin-top: 140px">
+      <a href="javascript:;" target="_blank" rel="noopener" class="page-reward-btn tooltip-top">
+        <div class="tooltip tooltip-east">
+          <span class="tooltip-item">
+            赏
+          </span>
+          <span class="tooltip-content">
+            <span class="tooltip-text">
+              <span class="tooltip-inner">
+                <p class="reward-p">赠人玫瑰，手有余香</p>
+                <div class="reward-box">
+                  
+                    <div class="reward-box-item">
+                    <img class="reward-img" src="/img/alipay.jpeg">
+                    <span class="reward-type">支付宝</span>
+                  </div>
+                  
+                  
+                    <div class="reward-box-item">
+                    <img class="reward-img" src="/img/wechat.jpeg">
+                    <span class="reward-type">微信</span>
+                  </div>
+                  
+                </div>
+              </span>
+            </span>
+          </span>
+        </div>
+      </a>
+    </div>
   </header>
 </div>
 <footer id="footer">
@@ -789,12 +819,12 @@ disruptor thread is started, output log file: /tmp/134fd4e4-7ecb-4b68-86cb-b4e8c
       
         <li class="article-tag-list-item">
           <a href="javascript:void(0)"
-             class="js-tag article-tag-list-link color5">java</a>
+             class="js-tag article-tag-list-link color4">projects</a>
         </li>
       
         <li class="article-tag-list-item">
           <a href="javascript:void(0)"
-             class="js-tag article-tag-list-link color4">projects</a>
+             class="js-tag article-tag-list-link color5">java</a>
         </li>
       
         <li class="article-tag-list-item">
@@ -911,38 +941,6 @@ disruptor thread is started, output log file: /tmp/134fd4e4-7ecb-4b68-86cb-b4e8c
         </div>
       </div>
     
-    
-      <div class="page-reward">
-        <a href="javascript:;" target="_blank" rel="noopener" class="page-reward-btn tooltip-top">
-          <div class="tooltip tooltip-east">
-          <span class="tooltip-item">
-            赏
-          </span>
-            <span class="tooltip-content">
-            <span class="tooltip-text">
-              <span class="tooltip-inner">
-                <p class="reward-p">赠人玫瑰，手有余香</p>
-                <div class="reward-box">
-                  
-                    <div class="reward-box-item">
-                    <img class="reward-img" src="/img/alipay.jpeg">
-                    <span class="reward-type">支付宝</span>
-                  </div>
-                  
-                  
-                    <div class="reward-box-item">
-                    <img class="reward-img" src="/img/wechat.jpeg">
-                    <span class="reward-type">微信</span>
-                  </div>
-                  
-                </div>
-              </span>
-            </span>
-          </span>
-          </div>
-        </a>
-      </div>
-    
   </div>
 </aside>
 
@@ -1054,7 +1052,7 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">java</a>
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">maven</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -1062,15 +1060,15 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color3">aspectj</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">maven</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">spring-boot</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">java</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color3">aspectj</a>
               </li>
             
               <li class="article-tag-list-item">
